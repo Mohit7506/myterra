@@ -22,6 +22,6 @@ resource "aws_security_group" "mysg" {
     }
 
     tags = {
-        name = "allow_ssh"
+        name = "module-change"
     }
 }
